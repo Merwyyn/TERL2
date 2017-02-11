@@ -230,7 +230,7 @@ void afficherTooltip(LoaderObject& objects, Population& population, vector<Ascen
                 else if (p.getAscenseurId()>=0)
                     sprintf(texteI, "Etat : Ascenseur");
                 else if (p.getWaitElevators())
-                    sprintf(texteI, "Etat : Attente (%2f)", p.getTempsAttente());)
+                    sprintf(texteI, "Etat : Attente (%2f)", p.getTempsAttente());
                 else if (!p.getVisible())
                     sprintf(texteI, "Etat : Courses");
                 else
